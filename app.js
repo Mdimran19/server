@@ -12,7 +12,7 @@ const cors = require('cors');
 const app = express()
 app.use(express.json());
 app.use(cors({
-    origin: [process.env.FRONTEND_URL],
+    origin: 'https://blogworld-jfhh.onrender.com',
     methods: ["GET", "POST", "PUT", "DELETE"],
  
     credentials: true,
