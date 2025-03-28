@@ -12,7 +12,7 @@ const cors = require('cors');
 const app = express()
 app.use(express.json());
 app.use(cors({
-    origin: 'https://blogworld-jfhh.onrender.com',
+    origin: 'https://bclient-md-imran-mias-projects.vercel.app',
     methods: ["GET", "POST", "PUT", "DELETE"],
  
     credentials: true,
