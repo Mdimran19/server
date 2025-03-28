@@ -12,7 +12,7 @@ const cors = require('cors');
 const app = express()
 app.use(express.json());
 app.use(cors({
-    origin: 'https://bclient-md-imran-mias-projects.vercel.app',
+    origin: 'https://bclient.vercel.app',
     methods: ["GET", "POST", "PUT", "DELETE"],
  
     credentials: true,
